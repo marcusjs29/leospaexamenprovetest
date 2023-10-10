@@ -1,3 +1,39 @@
 .pink {
-    color: pink;
+    color: rgb(255, 187, 198);
+}
+
+#beautyStarts {
+    margin-top: 80px;
+}
+
+.maincontainer {
+    max-width: 768px;
+    margin: auto;
+}
+
+.herobgimage {
+    background-image: url("../src/img/spa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#comments {
+    background-color: #FFF9F8;
+}
+
+.teamCard {
+    position: absolute;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 15px -1px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 10px 15px -1px rgba(219,219,219,1);
+    box-shadow: 0px 10px 15px -1px rgba(219,219,219,1);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    width: 82%;
+}
+
+#team {
+    margin-bottom: 100px;
 }
