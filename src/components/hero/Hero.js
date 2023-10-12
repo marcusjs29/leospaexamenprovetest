@@ -16,12 +16,12 @@ const Hero = () => {
                     <section id="beautyStarts" className="offset-1 col-md-4">
                         <span className="pink">SPA & BEAUTY CENTER</span>
                         <h1 className="mt-3">Beauty and success starts here.</h1>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <article className="row">
-                            <section className="col-md-3">
-                                <button>RESERVE NOW</button>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        <article className="row mt-5">
+                            <section className="col-md-4">
+                                <button className="col-12 py-3">RESERVE NOW</button>
                             </section>
-                            <section className="col-md-3">
+                            <section className="col-md-4">
                                 <video></video>
                                 <p>Watch our story</p>
                             </section>

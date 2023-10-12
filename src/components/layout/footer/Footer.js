@@ -24,9 +24,9 @@ const Footer = () => {
                     <p className="p-2"><BsInstagram /></p>
                 </section>
                 <section className="d-flex justify-content-center col-12">
-                    <p>
+                    <h6>
                     © COPYRIGHT 2019 <span className="pink"> THEMEIES.COM </span> ALL RIGHTS RESERVED.
-                    </p>
+                    </h6>
                 </section>
             </article>
         </div>

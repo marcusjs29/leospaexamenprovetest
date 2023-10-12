@@ -5,6 +5,7 @@ import image4 from "../../img/procedures/7.jpg";
 import chinaRose from "../../img/china-rose.png";
 import butterfly from "../../img/butterfly.png";
 import jasmine from "../../img/jasmine.png";
+import spaicon from "../../img/icons/1.png";
 
 const About = () => {
     return (
@@ -33,24 +34,45 @@ const About = () => {
 
                         <article className="row">
                             <section className="col-12 d-flex justify-content-center my-5">
-                                <button className="p-2">RESERVE NOW</button>
+                                <button className="p-3 px-5">READ MORE</button>
                             </section>
                         </article>
                     </section>
                 </article>
 
                 <article className="row g-2">
+
                     <figure className="col-md-3">
-                        <img className="img-fluid" src={image1} />
+                        <div className="hovertreatment position-relative">
+                            <div className="position-absolute">
+                                <img className="spaiconcenter" src={spaicon} />
+                            </div>
+                            <img className="img-fluid" src={image1} />
+                        </div>
                     </figure>
                     <figure className="col-md-3">
-                        <img className="img-fluid" src={image2} />
+                        <div className="hovertreatment position-relative">
+                            <div className="position-absolute">
+                                <img className="spaiconcenter" src={spaicon} />
+                            </div>
+                            <img className="img-fluid" src={image2} />
+                        </div>
                     </figure>
                     <figure className="col-md-3">
-                        <img className="img-fluid" src={image3} />
+                        <div className="hovertreatment position-relative">
+                            <div className="position-absolute">
+                                <img className="spaiconcenter" src={spaicon} />
+                            </div>
+                            <img className="img-fluid" src={image3} />
+                        </div>
                     </figure>
                     <figure className="col-md-3">
-                        <img className="img-fluid" src={image4} />
+                        <div className="hovertreatment position-relative">
+                            <div className="position-absolute">
+                                <img className="spaiconcenter" src={spaicon} />
+                            </div>
+                            <img className="img-fluid" src={image4} />
+                        </div>
                     </figure>
                 </article>
             </div>

@@ -3,7 +3,7 @@ import logo from "../../../img/logo.png";
 const Nav = () => {
     return (
         <>
-            <div className="maincontainer p-2">
+            <div id="nav" className="maincontainer p-2">
                 <div className="row d-flex justify-content-center">
                     <div className="col-2">
                         <a href="/" className="navbar-brand">
