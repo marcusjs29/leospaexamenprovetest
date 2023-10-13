@@ -10,7 +10,7 @@ const Footer = () => {
                 <figure className="d-flex justify-content-center col-12">
                     <img src={footerLogo} />
                 </figure>
-                <section className="d-flex justify-content-center col-12">
+                <section className="d-md-flex d-none justify-content-center col-12">
                     <a className="nav-link active" aria-current="page" href="#home">HOME</a>
                     <a className="nav-link active" aria-current="page" href="#about">ABOUT</a>
                     <a className="nav-link" href="#feature">FEATURE</a>

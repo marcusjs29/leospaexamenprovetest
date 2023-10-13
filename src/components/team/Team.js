@@ -14,7 +14,7 @@ const Team = () => {
                     </section>
                     <article className="row">
                         <section className="col-md-4">
-                            <div className="position-relative">
+                            <div className="text-center position-relative mb-5">
                                 <img className="img-fluid" src={team1} />
                                 <section className="teamCard">
                                     <h4>Joseph Austin</h4>
@@ -25,7 +25,7 @@ const Team = () => {
                         </section>
 
                         <section className="col-md-4">
-                            <div className="position-relative">
+                            <div className="position-relative mb-5">
                                 <img className="img-fluid" src={team2} />
                                 <section className="teamCard">
                                     <h4>David Hannan</h4>
@@ -36,7 +36,7 @@ const Team = () => {
                         </section>
 
                         <section className="col-md-4 position-relative">
-                            <div className="position-relative">
+                            <div className="position-relative mb-5">
                                 <img className="img-fluid" src={team3} />
                                 <section className="teamCard">
                                     <h4>Cheryl Harris</h4>

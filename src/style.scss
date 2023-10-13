@@ -119,6 +119,10 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+
+    @media screen and (max-width: 992px){
+        background-image: unset;
+    }
 }
 
 #comments {

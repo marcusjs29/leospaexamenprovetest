@@ -12,7 +12,7 @@ const About = () => {
         <>
             <div className="mt-5" id="about">
                 <article className="row">
-                    <figure className="offset-2 col-2">
+                    <figure className="offset-2 col-md-2">
                         <img className="img-fluid" src={chinaRose} />
                     </figure>
 
@@ -20,14 +20,14 @@ const About = () => {
 
                 <article className="row text-center">
                     <section className="col-12">
-                        <figure className="offset-5 col-2 text-center">
+                        <figure className="offset-5 d-md-flex d-none col-2 justify-content-center">
                             <img src={butterfly} />
                         </figure>
                         <span>ABOUT OUR SPA CENTER</span>
                         <h1 className="mt-3">Come and you will be inspired!</h1>
                         <article className="row">
                             <p className="offset-3 col-6">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <figure className="offset-1 col-1">
+                            <figure className="offset-1 col-1 d-md-flex d-none">
                                 <img className="img-fluid" src={jasmine} />
                             </figure>
                         </article>
@@ -41,7 +41,6 @@ const About = () => {
                 </article>
 
                 <article className="row g-2">
-
                     <figure className="col-md-3">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
@@ -55,7 +54,7 @@ const About = () => {
                             <img className="img-fluid" src={image1} />
                         </div>
                     </figure>
-                    <figure className="col-md-3">
+                    <figure className="col-md-3 d-md-flex d-none">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
                                 <div className="h-100 d-flex justify-content-center align-items-center">
@@ -68,7 +67,7 @@ const About = () => {
                             <img className="img-fluid" src={image2} />
                         </div>
                     </figure>
-                    <figure className="col-md-3">
+                    <figure className="col-md-3 d-md-flex d-none">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
                                 <div className="h-100 d-flex justify-content-center align-items-center">
@@ -81,7 +80,7 @@ const About = () => {
                             <img className="img-fluid" src={image3} />
                         </div>
                     </figure>
-                    <figure className="col-md-3">
+                    <figure className="col-md-3 d-md-flex d-none">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
                                 <div className="h-100 d-flex justify-content-center align-items-center">

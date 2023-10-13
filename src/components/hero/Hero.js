@@ -11,9 +11,9 @@ const Hero = () => {
                 <Nav />
                 <article className="row">
                     <section className="col-2">
-                        <img src={leaf} />
+                        <img className="img-fluid" src={leaf} />
                     </section>
-                    <section id="beautyStarts" className="offset-1 col-md-4">
+                    <section id="beautyStarts" className="offset-1 col-md-4 col-sm-7">
                         <span className="pink">SPA & BEAUTY CENTER</span>
                         <h1 className="mt-3">Beauty and success starts here.</h1>
                         <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
@@ -22,9 +22,9 @@ const Hero = () => {
                                 <button className="col-12 py-3">RESERVE NOW</button>
                             </section>
                             <section className="col-md-4">
-                                <video id="myVideo" controls>
-                                    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/JqHaJkIvz0Q?si=Vt3QlZ8Lk-QrnfgJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </video>
+                                
+                                <iframe id="myVideo" width="260" height="105" src="https://www.youtube.com/embed/JqHaJkIvz0Q?si=Vt3QlZ8Lk-QrnfgJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                
                                 <p>Watch our story</p>
                             </section>
                         </article>
