@@ -22,12 +22,14 @@ const Hero = () => {
                                 <button className="col-12 py-3">RESERVE NOW</button>
                             </section>
                             <section className="col-md-4">
-                                <video></video>
+                                <video id="myVideo" controls>
+                                    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/JqHaJkIvz0Q?si=Vt3QlZ8Lk-QrnfgJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </video>
                                 <p>Watch our story</p>
                             </section>
                         </article>
                     </section>
-                    
+
                 </article>
             </div>
         </>

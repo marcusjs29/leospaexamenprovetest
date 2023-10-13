@@ -45,7 +45,12 @@ const About = () => {
                     <figure className="col-md-3">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
-                                <img className="spaiconcenter" src={spaicon} />
+                                <div className="h-100 d-flex justify-content-center align-items-center">
+                                    <div className="text-center">
+                                        <img className="spaiconcenter" src={spaicon} />
+                                        <h5>Body Treatement</h5>
+                                    </div>
+                                </div>
                             </div>
                             <img className="img-fluid" src={image1} />
                         </div>
@@ -53,7 +58,12 @@ const About = () => {
                     <figure className="col-md-3">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
-                                <img className="spaiconcenter" src={spaicon} />
+                                <div className="h-100 d-flex justify-content-center align-items-center">
+                                    <div className="text-center">
+                                        <img className="spaiconcenter" src={spaicon} />
+                                        <h5>Body Treatement</h5>
+                                    </div>
+                                </div>
                             </div>
                             <img className="img-fluid" src={image2} />
                         </div>
@@ -61,7 +71,12 @@ const About = () => {
                     <figure className="col-md-3">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
-                                <img className="spaiconcenter" src={spaicon} />
+                                <div className="h-100 d-flex justify-content-center align-items-center">
+                                    <div className="text-center">
+                                        <img className="spaiconcenter" src={spaicon} />
+                                        <h5>Body Treatement</h5>
+                                    </div>
+                                </div>
                             </div>
                             <img className="img-fluid" src={image3} />
                         </div>
@@ -69,7 +84,12 @@ const About = () => {
                     <figure className="col-md-3">
                         <div className="hovertreatment position-relative">
                             <div className="position-absolute">
-                                <img className="spaiconcenter" src={spaicon} />
+                                <div className="h-100 d-flex justify-content-center align-items-center">
+                                    <div className="text-center">
+                                        <img className="spaiconcenter" src={spaicon} />
+                                        <h5>Body Treatement</h5>
+                                    </div>
+                                </div>
                             </div>
                             <img className="img-fluid" src={image4} />
                         </div>

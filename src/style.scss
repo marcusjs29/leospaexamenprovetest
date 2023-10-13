@@ -26,10 +26,18 @@ body {
         background-color: #FF817E;
         border-style: none;
         color: white;
+        transition: color 0.2s;
+
+        &:hover {
+            color: black;
+        }
     }
 }
 
 #about {
+    h5 {
+        font-size: 15px;
+    }
 
 
     button {
@@ -46,18 +54,20 @@ body {
     }
 
     .hovertreatment {
-        
-        div{
+
+        &>div {
             background-color: #FF817E;
             opacity: 0;
             transition: all 200ms linear;
             width: 100%;
             height: 100%;
         }
+
         &:hover {
             color: white;
             transition: transform 0.3s ease-in-out;
-            div {
+
+            &>div {
                 opacity: 0.8;
             }
         }
@@ -81,10 +91,26 @@ body {
 
     button {
         border-radius: 30px;
+        border-style: none;
         color: white;
         margin-left: 10px;
         background-color: black;
         font-size: 17px;
+
+        &:hover {
+            background-color: #FF817E;
+        }
+    }
+
+    .shadowhover {
+
+        transition: color 0.5s;
+
+        &:hover {
+            -webkit-box-shadow: 0px 0px 40px -12px rgba(150, 150, 150, 1);
+            -moz-box-shadow: 0px 0px 40px -12px rgba(150, 150, 150, 1);
+            box-shadow: 0px 0px 40px -12px rgba(150, 150, 150, 1);
+        }
     }
 }
 
@@ -145,6 +171,11 @@ body {
         color: white;
         margin-left: 10px;
         background-color: #FF817E;
+        transition: color 0.2s;
+
+        &:hover {
+            color: black;
+        }
     }
 }
 
