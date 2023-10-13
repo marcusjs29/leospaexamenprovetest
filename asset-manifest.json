@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/leospaexamenprovetest/static/css/main.d1137921.css",
+    "main.js": "/leospaexamenprovetest/static/js/main.6f7fafef.js",
+    "static/media/spa.png": "/leospaexamenprovetest/static/media/spa.0aeb4b87473e24732ded.png",
+    "static/media/leaf.png": "/leospaexamenprovetest/static/media/leaf.90d4e07040adbdabe5de.png",
+    "static/media/6.jpg": "/leospaexamenprovetest/static/media/6.0ac632cf2eb52711f293.jpg",
+    "static/media/7.jpg": "/leospaexamenprovetest/static/media/7.b232fcc80d281bdad75f.jpg",
+    "static/media/4.jpg": "/leospaexamenprovetest/static/media/4.df6af619b8c32de0640d.jpg",
+    "static/media/5.jpg": "/leospaexamenprovetest/static/media/5.ac0cc9f8081b6e9b894c.jpg",
+    "static/media/2.jpg": "/leospaexamenprovetest/static/media/2.0cf2af800842cb4e9129.jpg",
+    "static/media/3.jpg": "/leospaexamenprovetest/static/media/3.250f9aa0967565cb6d68.jpg",
+    "static/media/1.jpg": "/leospaexamenprovetest/static/media/1.aafbd0a2a2b515eda034.jpg",
+    "static/media/themify.woff": "/leospaexamenprovetest/static/media/themify.29b39089170885ae2967.woff",
+    "static/media/appointment-img.jpg": "/leospaexamenprovetest/static/media/appointment-img.e03c53b685a8d672d1db.jpg",
+    "static/media/china-rose.png": "/leospaexamenprovetest/static/media/china-rose.b2ed45bacc0fadaf98bc.png",
+    "static/media/jasmine.png": "/leospaexamenprovetest/static/media/jasmine.e6dc7d81b1fc53abeb8c.png",
+    "static/media/client-1.png": "/leospaexamenprovetest/static/media/client-1.72ed7d91c0a799904932.png",
+    "index.html": "/leospaexamenprovetest/index.html",
+    "main.d1137921.css.map": "/leospaexamenprovetest/static/css/main.d1137921.css.map",
+    "main.6f7fafef.js.map": "/leospaexamenprovetest/static/js/main.6f7fafef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1137921.css",
+    "static/js/main.6f7fafef.js"
+  ]
+}
